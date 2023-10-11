@@ -8,7 +8,7 @@ public class ProcessLauncher {
 
     public static Process initVowelCounter(String text, String vowel, String fileName) {
         ProcessBuilder processBuilder = new ProcessBuilder(
-                "java", "src/net/salesianos/processes/CharCounter.java", text, vowel
+                "java", "src/net/salesianos/programs/CharCounter.java", text, vowel
         );
 
         Process javaProcess = null;
